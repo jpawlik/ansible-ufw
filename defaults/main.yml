@@ -22,7 +22,7 @@ ufw_default_output_policy: ACCEPT
 ufw_default_forward_policy: DROP
 ufw_default_application_policy: SKIP
 # firewall state: enabled | disabled
-ufw_state: enabled
+ufw_state: "enabled"
 ufw_logging: "off"
 # always reset the firewall
 ufw_reset: yes
